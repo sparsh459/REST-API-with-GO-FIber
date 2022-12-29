@@ -11,7 +11,7 @@ import (
 // *fiber.Ctx is called context and it is everything that comes with an request
 
 func welcome(c *fiber.Ctx) error {
-	return c.SendString("Welcome to the website api")
+	return c.SendString("Welcome to the api test run")
 }
 
 func setupRoutes(app *fiber.App) {
